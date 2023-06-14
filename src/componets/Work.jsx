@@ -41,7 +41,7 @@ const data = [
 const Work = () => {
   return (
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 py-16 '>
-        <h1 className="text-4l font-bold text-center text-[#857D59]">Work</h1>
+        <h1 className="text-4xl font-bold text-center text-[#8F7860]">Work</h1>
         {data.map((item, idx)=>(
             <WorkiItem key={idx} 
             año={item.año} 

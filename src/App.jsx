@@ -6,6 +6,8 @@ import Sidenav from './componets/Sidenav'
 import Main from './componets/Main'
 import Work from './componets/Work'
 import Projects from './componets/Projects'
+import Contact from './componets/Contact'
+import Resume from './componets/Resume'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +19,8 @@ function App() {
         <Main />
         <Work />
         <Projects />
+        <Resume />
+        <Contact />
       </div>
     </>
   )
